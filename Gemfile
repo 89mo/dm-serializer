@@ -10,7 +10,7 @@ DO_VERSION     = '~> 0.10.6'
 DM_DO_ADAPTERS = %w[ sqlite postgres mysql oracle sqlserver ]
 CURRENT_BRANCH = ENV.fetch('GIT_BRANCH', 'master')
 
-gem 'fastercsv',  '~> 1.5'
+gem 'fastercsv',  '~> 1.15'
 gem 'multi_json', '~> 1.0'
 gem 'json_pure',  '~> 2.6'
 
