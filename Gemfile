@@ -19,8 +19,8 @@ gem 'multi_json', '~> 1.0'
 if WITH_JSON
   gem WITH_JSON
 else
-  gem 'json_pure', '~> 1.6', :platforms => [ :mswin ]
-  gem 'json', '~> 1.6', :platforms => [ :ruby_18, :jruby ]
+  gem 'json_pure', '~> 2.6', :platforms => [ :mswin ]
+  gem 'json', '~> 2.6', :platforms => [ :ruby_18, :jruby ]
 end
 
 gem 'dm-core', DM_VERSION,
